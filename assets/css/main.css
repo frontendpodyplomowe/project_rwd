@@ -2780,6 +2780,12 @@ input, select, textarea {
 					text-transform: uppercase;
 					white-space: nowrap;
 				}
+				.post > header .meta .published:hover {
+					transform: skewX(50%);
+					transform: translate(-30%, 40%);
+					transition: 1s all;
+					font-size: 1rem;
+				}
 
 		.post > a.image.featured {
 			overflow: hidden;

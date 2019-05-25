@@ -2594,6 +2594,7 @@ input, select, textarea {
 				ul.posts article header h3 {
 					font-size: 0.7em;
 					margin-top: 0.125em;
+					color: violet;
 				}
 
 				ul.posts article header .published {
@@ -2748,6 +2749,8 @@ input, select, textarea {
 				flex-grow: 1;
 				-ms-flex: 1;
 				padding: 3.75em 3em 3.3em 3em;
+				text-align: center;
+				color: rgb(60, 60, 116);
 			}
 
 				.post > header .title h2 {

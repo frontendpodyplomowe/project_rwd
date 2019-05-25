@@ -222,6 +222,12 @@ input, select, textarea {
 	h2 {
 		font-size: 1.1em;
 	}
+	.h2-about{
+		
+			font-size: 1.1em;
+			font-weight: 650;
+			color: #2ebaae;
+	}
 
 	h3 {
 		font-size: 0.9em;

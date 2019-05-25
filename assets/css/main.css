@@ -99,7 +99,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #f4f4f4;
+		background: linear-gradient(to bottom, rgb(228, 215, 215),rgb(196, 202, 185) );
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2785,6 +2785,12 @@ input, select, textarea {
 					margin-top: 0.5em;
 					text-transform: uppercase;
 					white-space: nowrap;
+				}
+				.post > header .meta .published:hover {
+					transform: skewX(50%);
+					transform: translate(-30%, 40%);
+					transition: 1s all;
+					font-size: 1rem;
 				}
 
 		.post > a.image.featured {
